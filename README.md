@@ -1,2 +1,2 @@
 # JaeHaDB
-Couples Fun &amp; Food Website
+재경, 하영의 놀거리&amp;먹거리 를 기록해놓은 웹사이트입니다.
