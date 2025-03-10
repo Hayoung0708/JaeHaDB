@@ -1,0 +1,19 @@
+@charset "utf-8";
+@import url(font.css);
+
+html, body, header, main, footer, nav, div, section,
+ul, li, h1, h2, h3, h4, p, span, form, input, img, a{
+    font-size: 15px;
+    font-family: 'Pretendard-Light', 프리텐다드 Light;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
