@@ -1,6 +1,12 @@
 @charset "utf-8";
 @import url(font.css);
 
+* {
+    cursor: url('/public/image/cursor.png')7 0, auto;
+}
+*:active {
+    cursor: url('/public/image/click.png')7 0, auto;
+}
 html, body, header, main, footer, nav, div, section,
 ul, li, h1, h2, h3, h4, p, span, form, input, img, a,  hr{
     position: relative;
@@ -17,6 +23,12 @@ ul, ol {
 }
 a {
     text-decoration: none;
+}
+a:hover {
+    cursor: url('/public/image/hover.png')10 0, auto;
+}
+a:active {
+    cursor: url('/public/image/hover_click.png')10 0, auto;
 }
 hr {
     height: 2px;
