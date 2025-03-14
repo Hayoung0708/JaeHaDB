@@ -19,20 +19,6 @@ ul, li, h1, h2, h3, h4, p, span, form, input, img, a,  hr{
     box-sizing: border-box;
     overflow: hidden;
 }
-h1, h2 {
-    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
-    font-weight: 500;
-}
-h3 {
-    display: inline;
-    font-family: 'GmarketSansBold', 지마켓산스 Bold;
-    font-weight: 100;
-}
-h4 {
-    display: inline;
-    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
-    font-weight: 500;
-}
 ul, ol {
     list-style: none;
 }
@@ -61,4 +47,31 @@ span {
 }
 .strong {
     font-family: 'GmarketSansBold', 지마켓산스 Bold !important;
+}
+
+h1 {
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-weight: 500;
+    font-size: 108px;
+    letter-spacing: -9px;
+    margin-top: -30px;
+}
+h2 {
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: -3px;
+}
+h3 {
+    display: inline;
+    font-family: 'GmarketSansBold', 지마켓산스 Bold;
+    font-weight: 100;
+    font-size: 40px;
+}
+h4 {
+    display: inline;
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 20px;
 }
