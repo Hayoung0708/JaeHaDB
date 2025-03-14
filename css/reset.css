@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url(font.css);
+@import url("font.css");
 
 * {
     cursor: url('/public/image/cursor.png')7 0, auto;
@@ -12,11 +12,26 @@ ul, li, h1, h2, h3, h4, p, span, form, input, img, a,  hr{
     position: relative;
     font-size: 15px;
     font-family: 'Pretendard-Light', 프리텐다드 Light;
+    font-weight: 100;
     color: #000000;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+}
+h1, h2 {
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-weight: 500;
+}
+h3 {
+    display: inline;
+    font-family: 'GmarketSansBold', 지마켓산스 Bold;
+    font-weight: 100;
+}
+h4 {
+    display: inline;
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-weight: 500;
 }
 ul, ol {
     list-style: none;
@@ -33,12 +48,15 @@ a:active {
 hr {
     height: 2px;
     border: 1px solid #000000;
+    display: inline-block;
 }
 
+span {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
 .primary {
-    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
-    font-size: 50px;
-    font-weight: 500;
     color: #1aebdc;
 }
 .strong {

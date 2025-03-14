@@ -7,25 +7,23 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
 </head>
 <body>
-    <div class="file">
-        <!-- navigation -->
-        <div class="navigation">
-            <nav>
-                <ul>
-                    <li><a href="#" class="on">HOME</a></li>
-                    <li><a href="#">INDEX</a></li>
-                    <li><a href="#">ENTERTAINMENT</a></li>
-                    <li><a href="#">RESTAURANT</a></li>
-                    <li><a href="#">CAFE</a></li>
-                    <li><a href="#">STAY</a></li>
-                </ul>
-            </nav>
-        </div>
+    <div class="container">
+        <!-- gnb -->
+        <nav class="gnb">
+            <ul>
+                <li><a href="#" class="on">HOME</a></li>
+                <li><a href="#" >INDEX</a></li>
+                <li><a href="#">ENTERTAINMENT</a></li>
+                <li><a href="#">RESTAURANT</a></li>
+                <li><a href="#">CAFE</a></li>
+                <li><a href="#">STAY</a></li>
+            </ul>
+        </nav>
 
-        <!-- contents -->
-        <div class="contents">
+        <!-- wrapper -->
+        <div class="wrapper">
             <!-- home -->
-            <div id="home" class="main">
+            <div id="home" class="contents">
                 <div class="title_main">
                     <h2>만난지 <span class="primary">922</span>일뙒</h2>
                     <h1>재하듀오 DB</h1>
@@ -39,12 +37,12 @@
             </div>
 
             <!-- index -->
-            <!-- <div id="index"  class="main">
-                <div class="title_sub">
-                    <h3><span class="primary">SELECT</span> *</h3>
+            <div id="index"  class="contents">
+                <header>
+                    <h3><span class="bold"><span class="primary">SELECT</span> *</span></h3>
                     <h4>데이터베이스 소개</h4>
-                    <div class="line"></div>
-                </div>
+                    <hr>
+                </header>
                 <div class="content">
                     <ul>
                         <li>
@@ -88,10 +86,10 @@
                         </li>
                     </ul>
                 </div>
-            </div> -->
+            </div>
 
             <!-- entertainment -->
-            <!-- <div id="entertainment"  class="main">
+            <div id="entertainment"  class="contents">
                 <div class="title_sub">
                     <h3><span class="primary">SELECT</span> entertainment</h3>
                     <h4>놀거리</h4>
@@ -223,7 +221,7 @@
                         </main>
                     </section>
                 </div>
-            </div> -->
+            </div>
         </div>
     </wrapper>
 </body>
