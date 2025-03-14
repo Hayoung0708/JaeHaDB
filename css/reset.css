@@ -2,7 +2,8 @@
 @import url(font.css);
 
 html, body, header, main, footer, nav, div, section,
-ul, li, h1, h2, h3, h4, p, span, form, input, img, a{
+ul, li, h1, h2, h3, h4, p, span, form, input, img, a,  hr{
+    position: relative;
     font-size: 15px;
     font-family: 'Pretendard-Light', 프리텐다드 Light;
     color: #000000;
@@ -16,4 +17,18 @@ ul, ol {
 }
 a {
     text-decoration: none;
+}
+hr {
+    height: 2px;
+    border: 1px solid #000000;
+}
+
+.primary {
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-size: 50px;
+    font-weight: 500;
+    color: #1aebdc;
+}
+.strong {
+    font-family: 'GmarketSansBold', 지마켓산스 Bold !important;
 }

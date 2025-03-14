@@ -3,20 +3,20 @@
 
 body {
     background-color: #F0F0F0;
-    width: 100vw;
-    height: 100vh;
 }
 .file {
-    margin: 3%;
+    width: 1400px;
+    margin: 50px auto;
 }
 
 /* navigation */
 .navigation {
     text-align: center;
+    position: relative;
 }
 .navigation li{
-    width: 10%;
-    height: 120px;
+    width: 170px;
+    height: 125px;
     float: left;
     margin-right: 5px;
 }
@@ -36,4 +36,67 @@ body {
     background-color: #000000;
     color: #1aebdc;
     margin-top: 0;
+}
+
+/* contents */
+.contents {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-top: -50px;
+}
+.main {
+    position: absolute;
+    width: 100%;
+    height: 870px;
+    padding: 50px;
+}
+.title_main {
+    height: 680px;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+h1 {
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-size: 108px;
+    font-weight: 500;
+    letter-spacing: -9px;
+    margin-top: -30px;
+}
+h2 {
+    font-family: 'EliceDigitalBaeum', 엘리스디지털배움체;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -3px;
+}
+.title_main p {
+    padding-left: 5px;
+}
+.subtitle1 {
+    font-size: 10px;
+    font-family: 'GmarketSansBold', 지마켓산스 Bold;
+    letter-spacing: 5.3px;
+}
+.subtitle2 {
+    font-family: 'Pretendard-ExtraLight', 프리텐다드 ExtraLight;
+    margin-top: 7px;
+    letter-spacing: 0.5px;
+}
+.footer {
+    bottom: 20px
+}
+.footer hr {
+    display: inline-block;
+    width: 860px;
+    margin-bottom: -13px;
+}
+.footer p, .footer span {
+    text-align: right;
+    font-family: 'GmarketSansMedium';
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 100;
 }
